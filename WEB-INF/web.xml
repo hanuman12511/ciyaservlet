@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>homepage</servlet-name>
+        <servlet-class>pro.HomePage</servlet-class>
+    </servlet>
+
+      <servlet-mapping>
+        <servlet-name>homepage</servlet-name>
+        <url-pattern>/homescreen</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>product</servlet-name>
+        <servlet-class>pro.Product</servlet-class>
+    </servlet>
+
+      <servlet-mapping>
+        <servlet-name>product</servlet-name>
+        <url-pattern>/productscreen</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cartpage</servlet-name>
+        <servlet-class>pro.Addtocart</servlet-class>
+    </servlet>
+
+      <servlet-mapping>
+        <servlet-name>cartpage</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+</web-app>
