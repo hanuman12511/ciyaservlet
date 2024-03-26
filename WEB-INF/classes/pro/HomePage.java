@@ -13,7 +13,7 @@ public class HomePage extends HttpServlet{
     PrintWriter out = response.getWriter();
   
    out.println("HomeScreen");
-  
+   response.sendRedirect(request.getContextPath() + "/HomeScreen.jsp");
    
   }
   }

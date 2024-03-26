@@ -14,6 +14,6 @@ public class Product extends HttpServlet{
   
    out.println("ProductScreen");
   
-   
+   response.sendRedirect(request.getContextPath() + "/product.jsp");
   }
   }
